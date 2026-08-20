@@ -12,7 +12,7 @@ A clean, modern, and developer-friendly resume template engineered to render a p
 - **ATS-Friendly Structure:** Built using semantic HTML tags (`<h1>`, `<div class="entry">`, `<ul>`) and standard web fonts for optimal parsing across Applicant Tracking Systems.
 - **Clickable Hyperlinks:** Integrated links for emails, GitHub repositories, live demo URLs, and credential certificates.
 - **No External Layout Frameworks:** Written in pure HTML and vanilla CSS with no heavy JavaScript dependencies.
-- **Automated PDF Compilation:** Includes a Python script utilizing WeasyPrint to instantly render `.html` into a vector `.pdf`.
+
 
 ---
 
