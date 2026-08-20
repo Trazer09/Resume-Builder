@@ -1,0 +1,414 @@
+
+
+from weasyprint import HTML
+
+html_content = 
+
+/* This is basic html and css which you can use to make your own resume. Edit your own resume by just filling your details */
+
+"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Resume - Sidhant Kumar</title>
+<style>
+  @page {
+    size: A4;
+    margin: 8mm 12mm;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+ body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #222222;
+  background-color: #ffffff;
+  line-height: 1.28;   /* was 1.35 or 1.25 */
+  font-size: 1pt;    /* was 8.8pt or 9.5pt */
+}
+
+  .header {
+    text-align: center;
+    border-bottom: 1.5px solid #1a365d;
+    padding-bottom: 4px;
+    margin-bottom: 6px;
+  }
+
+  .name {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #1a365d;
+    letter-spacing: 0.5px;
+    margin: 0 0 2px 0;
+    text-transform: uppercase;
+  }
+
+  .contact-bar {
+    font-size: 8.2pt;
+    color: #4a5568;
+  }
+
+  .contact-bar a {
+    color: #2b6cb0;
+    text-decoration: none;
+  }
+
+  .separator {
+    color: #a0aec0;
+    margin: 0 4px;
+  }
+
+
+
+  .section {
+  margin-bottom: 6px;
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
+
+.section-title {
+  font-size: 9.8pt;
+  font-weight: 700;
+  color: #1a365d;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  border-bottom: 1px solid #cbd5e0;
+  padding-bottom: 2px;
+  margin: 0 0 5px 0;
+}
+  .entry {
+    margin-bottom: 4px;
+    page-break-inside: avoid;
+  }
+
+  .entry-header {
+    display: table;
+    width: 100%;
+    margin-bottom: 1px;
+  }
+
+  .entry-title-left {
+    display: table-cell;
+    text-align: left;
+    font-size: 9pt;
+  }
+
+  .entry-meta-right {
+    display: table-cell;
+    text-align: right;
+    font-size: 8.2pt;
+    color: #4a5568;
+    white-space: nowrap;
+  }
+
+  .primary-title {
+    font-weight: 700;
+    color: #2d3748;
+  }
+
+  .secondary-title {
+    font-weight: 600;
+    color: #4a5568;
+  }
+
+  .link-text {
+    color: #2b6cb0;
+    text-decoration: none;
+    font-size: 8pt;
+  }
+
+  ul.bullets {
+    margin: 1px 0 0 0;
+    padding-left: 14px;
+  }
+
+  ul.bullets li {
+    margin-bottom: 1.5px;
+    color: #2d3748;
+    font-size: 8.5pt;
+    line-height: 1.25;
+  }
+
+  .edu-item {
+    margin-bottom: 3px;
+  }
+
+  .skills-list {
+    margin: 0;
+    padding-left: 14px;
+  }
+
+  .skills-list li {
+    margin-bottom: 2px;
+    font-size: 8.5pt;
+    color: #2d3748;
+  }
+
+  .skill-cat {
+    font-weight: 700;
+    color: #1a365d;
+  }
+</style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+  <h1 class="name">Sidhant Kumar</h1>
+  <div class="contact-bar">
+    <a href="mailto:sidhantkumar369@gmail.com">sidhantkumar369@gmail.com</a>
+    <span class="separator">•</span>
+    <span>+91 9650586966</span>
+    <!--  <span class="separator">•</span>
+    <span>New Delhi, India</span>  -->
+  
+    <span class="separator">•</span>
+    <a href="https://linkedin.com/in/sidhantkumar369" target="_blank">LinkedIn</a>
+    <span class="separator">•</span>
+    <a href="https://github.com/Trazer09" target="_blank">GitHub</a>
+    <span class="separator">•</span>
+    <a href="https://sidhantkumar.netlify.app/" target="_blank">Portfolio</a>
+  </div>
+</div>
+  <br>
+
+  <!-- Experience -->
+  <div class="section">
+    <div class="section-title">Experience</div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <div class="entry-title-left">
+          <span class="primary-title">Web Developer</span> — <span class="secondary-title">Acelacio'n Industries</span>
+        </div>
+        <div class="entry-meta-right">
+          January 2026 – Present | TELANGANA 
+        </div>
+      </div>
+        <div style="font-size: 8.5pt; margin-bottom: 2px;">
+        <a class="link-text" href="https://acelacion.com" target="_blank">acelacion.com</a>
+      </div>
+      <ul class="bullets">
+    <!--   <li>Developed a responsive corporate website for pharmaceutical firm Acelacio'n to showcase its products, services, and core business offerings.</li>
+<li>Implemented modern UI components and interactive animations using GSAP and ScrollTrigger, while optimizing web performance and maintaining responsive design across devices.</li>
+<li>Built SEO-friendly and accessible web structures using semantic HTML, optimized page structure, and a properly configured robots.txt file to improve discoverability and accessibility.</li>
+<li>Collaborated closely with stakeholders to translate business requirements into scalable web features and ensure timely project delivery.</li> -->
+
+
+<li>Strengthened Acelacio'n's digital presence by developing a responsive corporate website that established a professional online presence and communicated the company's business, capabilities, and offerings.</li>
+  <li>Improved user engagement and cross-device experience by implementing interactive UI animations with GSAP and ScrollTrigger while optimizing page performance and responsiveness.</li>
+  <li>Enhanced website discoverability and accessibility through semantic HTML, structured page architecture, SEO-friendly practices, and a properly configured robots.txt file.</li>
+  <li>Translated stakeholder requirements into scalable web features and delivered the project on schedule through close collaboration with business stakeholders.</li>
+
+
+      </ul>
+    </div>
+    <br>
+
+    <div class="entry">
+      <div class="entry-header">
+        <div class="entry-title-left">
+          <span class="primary-title">Core Member</span> — <span class="secondary-title">Sibilize Hospitality Private Limited</span>
+        </div>
+        <div class="entry-meta-right">
+          February 2023 – December 2023 | MAHARASHTRA
+        </div>
+      </div>
+     
+      <ul class="bullets">
+     <!--   <li>Identified and researched potential student accommodation providers, building a database of apartments, rooms, and properties suitable for college students.</li>
+<li>Generated and qualified leads by reaching out to landlords and property owners and identifying potential partnership opportunities.</li>
+<li>Communicated with landlords, negotiated terms, and facilitated partnership agreements to expand the company's accommodation network.</li>
+<li>Conducted market research to identify high-demand locations and accommodation options for college students, supporting the development of a student-focused accommodation business model.</li>
+<li>Contributed to the development and execution of a student accommodation marketplace model inspired by platforms such as OYO Rooms.</li> -->
+
+<!-- <li>Generated revenue for the startup by connecting college students with suitable accommodation, following the successful onboarding of 30+ properties through landlord partnerships.</li> <li>Built the company's accommodation network by prospecting and engaging with 50+ landlords and property owners, converting opportunities into 30+ property partnerships.</li> 
+<li>Negotiated and facilitated partnership agreements with landlords, establishing relationships that expanded the startup's accommodation supply and revenue-generating opportunities.</li> <li>Managed the onboarding and furnishing of accommodation properties, helping prepare properties to meet student requirements and improve their market readiness.</li> 
+<li>Conducted market research and identified high-demand student locations and accommodation options, enabling the startup to connect students with relevant properties and develop its marketplace operations.</li>  -->
+
+<li>Generated revenue for the startup by connecting college students with suitable accommodation across a network of 30+ partnered properties.</li>
+ <li>Prospected and engaged with 50+ landlords and property owners, converting leads into 30+ property partnerships through relationship building, negotiation, and partnership agreements.</li> <li>Conducted market research to identify high-demand student locations, accommodation preferences, and property opportunities, supporting expansion of the startup's student accommodation marketplace.</li> 
+ <li>Managed property onboarding and furnishing while coordinating with landlords, owners, and students to ensure properties met student requirements and were ready for occupancy.</li>
+
+        
+      </ul>
+    </div>
+  </div>
+
+  <!-- Projects -->
+  <div class="section">
+    <div class="section-title">Projects</div>
+
+
+    <div class="entry">
+  <div class="entry-header">
+    <div class="entry-title-left">
+      <span class="primary-title">Open Source Developer</span> — <span class="secondary-title">Remove YouTube Distraction</span> <span style="font-size: 8.5pt; color: #718096;">(40+ Stars)</span>
+    </div>
+    <div class="entry-meta-right">
+      2026 – Present
+    </div>
+  </div>
+  <div style="font-size: 8.5pt; margin-bottom: 2px;">
+    <a class="link-text" href="https://github.com/Trazer09/Remove-YouTube-Distraction" target="_blank">GitHub Repo</a>
+  </div>
+  <ul class="bullets">
+    <li>Developed and maintained a custom uBlock Origin filter list to create a distraction-free YouTube experience without requiring an additional browser extension.</li>
+    <li>Engineered custom filters to hide Shorts, advertisements, promotional banners, comments, infinite scrolling, notification elements, and other engagement-focused UI components.</li>
+    <li>Continuously updated filters to adapt to YouTube's evolving UI and maintain compatibility and reliability across platform changes.</li>
+  </ul>
+</div>
+<br>
+    <div class="entry">
+      <div class="entry-header">
+        <div class="entry-title-left">
+          <span class="primary-title">Open Source Contributor</span> — <span class="secondary-title">Remove YouTube Suggestions</span> <span style="font-size: 8.5pt; color: #718096;">(500+ Stars)</span>
+        </div>
+        <div class="entry-meta-right">
+          July 2025 – September 2025
+        </div>
+      </div>
+      <div style="font-size: 8.5pt; margin-bottom: 2px;">
+        <a class="link-text" href="https://github.com/lawrencehook/remove-youtube-suggestions" target="_blank">GitHub Repo</a>
+      </div>
+      <ul class="bullets">
+        <li>Refactored and enhanced CSS selectors for hiding Shorts across search results, eliminating brittle DOM dependency patterns.</li>
+        <li>Collaborated with the maintainer through detailed code reviews and iteratively applied feedback to optimize extension reliability.</li>
+      </ul>
+    </div>
+<br>
+    <div class="entry">
+      <div class="entry-header">
+        <div class="entry-title-left">
+          <span class="primary-title">Doctor Portfolio & Appointment Platform</span>
+        </div>
+        <div class="entry-meta-right">
+          September 2024 – June 2025
+        </div>
+      </div>
+      <div style="font-size: 8.5pt; margin-bottom: 2px;">
+        <a class="link-text" href="https://doctor-portfolio-theta.vercel.app/" target="_blank">Live Demo</a>
+      </div>
+      <ul class="bullets">
+        <li>Engineered a full-stack doctor portfolio and booking web application using React, Node.js (Express), and MongoDB featuring dynamic scheduling and contact management.</li>
+        <li>Deployed production builds leveraging Vercel (Frontend), Render (Backend), and MongoDB Atlas cloud database.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Technical Skills -->
+  <div class="section">
+    <div class="section-title">Technical Skills</div>
+    <ul class="skills-list">
+      <li><span class="skill-cat">Languages:</span> Python, C++, JavaScript, SQL</li>
+      <li><span class="skill-cat">Web Development:</span> React.js, Node.js, Express.js, HTML, CSS, GSAP</li>
+      <li><span class="skill-cat">Tools & Databases:</span> Git, GitHub, MongoDB, Vercel, WordPress</li>
+    </ul>
+  </div>
+
+  <!-- Education -->
+  <div class="section">
+    <div class="section-title">Education</div>
+
+    <div class="edu-item">
+      <div class="entry-header">
+        <div class="entry-title-left">
+          <span class="primary-title">Bachelors of Technology</span> in Electronics & Communication Engineering
+          <br>
+          <span class="secondary-title" style="font-size: 9pt;">Maharaja Surajmal Institute of Technology (GGSIPU), New Delhi</span>
+        </div>
+        <div class="entry-meta-right">
+          2020 – 2024<br>
+          <strong>8.44 CGPA</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="edu-item" style="margin-top: 4px;">
+      <div class="entry-header">
+        <div class="entry-title-left">
+          <span class="primary-title">Class XII</span> — <span class="secondary-title" style="font-size: 9pt;">Army Public School, Delhi Cantt, New Delhi</span>
+        </div>
+        <div class="entry-meta-right">
+          2019 | <strong>86.2%</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="edu-item" style="margin-top: 4px;">
+      <div class="entry-header">
+        <div class="entry-title-left">
+          <span class="primary-title">Class X</span> — <span class="secondary-title" style="font-size: 9pt;">Army Public School, Delhi Cantt, New Delhi</span>
+        </div>
+        <div class="entry-meta-right">
+          2017 | <strong>9.4 CGPA</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Certifications -->
+  <div class="section">
+    <div class="section-title">Certifications</div>
+    <div class="entry">
+      <div class="entry-header">
+        <div class="entry-title-left">
+          <span class="primary-title">J.P. Morgan Software Engineering Virtual Experience</span>
+        </div>
+        <div class="entry-meta-right">
+          July 2024
+        </div>
+      </div>
+      <div style="font-size: 1pt; margin-bottom: 2px;">
+        <a class="link-text" href="https://www.theforage.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_J.P.%20Morgan_XozKPrkXeyEFbZjN7_1720163640787_completion_certificate.pdf/" target="_blank">Certificate</a>
+      </div>
+      <ul class="bullets">
+          <li>Set up a local dev environment by downloading the necessary files, tools and
+          dependencies.</li>
+        <li>Fixed broken files in the repository to make web application output
+          correctly.</li>
+        <li>Used JPMorgan Chase’s open source library called Perspective to generate a
+          live graph that displays a data feed in a clear and visually appealing way
+          for traders to monitor.</li>
+      </ul>
+    </div>
+<div class="entry">
+  <div class="entry-header">
+    <div class="entry-title-left">
+      <span class="primary-title">Goldman Sachs Software Engineering Virtual Experience Program</span>
+    </div>
+    <div class="entry-meta-right">
+      August 2023
+    </div>
+  </div>
+  <div style="font-size: 1pt; margin-bottom: 2px;">
+        <a class="link-text" href="https://www.theforage.com/completion-certificates/Goldman%20Sachs/NPdeQ43o8P9HJmJzg_Goldman%20Sachs_XozKPrkXeyEFbZjN7_1693485677651_completion_certificate.pdf" target="_blank">Certificate</a>
+      </div>
+  <ul class="bullets">
+    <li>Completed a job simulation as a Goldman Sachs governance analyst, assessing IT security and suggesting improvements.</li>
+    <li>Identified the use of an outdated password hashing algorithm by cracking passwords using Hashcat.</li>
+    <li>Wrote a memo summarizing proposed improvements to password protection, including increasing minimum password length and adopting a dedicated hashing algorithm.</li>
+  </ul>
+</div>
+
+
+
+  </div>
+
+</body>
+</html>
+
+"""
+
+# Write HTML to a file and compile to PDF
+with open("resume.html", "w", encoding="utf-8") as f:
+    f.write(html_content)
+
+HTML("resume.html").write_pdf("Sidhant_Kumar_Resume.pdf")
+print("New PDF created: Sidhant_Kumar_Resume.pdf")
