@@ -1,8 +1,8 @@
-
-
 # HTML to Single-Page PDF Resume Generator
 
 A clean, modern, and developer-friendly resume template engineered to render a pixel-perfect, ATS-compliant, single-page PDF using semantic HTML/CSS.
+
+> 💡 **Writing High-Impact Bullet Points:** Before adding your content, check out our **[Resume Impact & "So What?" Guide](TIPS.md)** to turn passive tasks into measurable, recruiter-ready achievements.
 
 ---
 
@@ -13,9 +13,7 @@ A clean, modern, and developer-friendly resume template engineered to render a p
 - **Clickable Hyperlinks:** Integrated links for emails, GitHub repositories, live demo URLs, and credential certificates.
 - **No External Layout Frameworks:** Written in pure HTML and vanilla CSS with no heavy JavaScript dependencies.
 
-
 ---
-
 
 ## Quick Start (No Installation Needed)
 
@@ -34,7 +32,6 @@ If the formatting looks slightly off or text spills onto a second page:
 * **Remove Page URLs / Dates (Firefox/Chrome):** Go to **More settings** and uncheck **Print headers and footers**.
 * **Ensure Styling Loads:** Under **More settings**, check the box for **Background graphics**.
 
-
 ---
 
 ## Customization Guide
@@ -49,7 +46,15 @@ If your content runs onto a second page or you want to expand sections, adjust t
 
 ---
 
+## Resume Writing Guide
+
+Need help formulating your experience bullets and quantifying your results? Read through our **[TIPS.md](TIPS.md)** guide covering:
+- The **"So What?"** method for framing outcomes
+- The **Impact-first** bullet point formula
+- Real-world before-and-after resume examples
+
+---
+
 ## License
 
 This project is licensed under the [MIT License](https://github.com/Trazer09/Resume-Builder/blob/main/LICENSE) — feel free to fork, customize, and use it for your personal career applications.
-
