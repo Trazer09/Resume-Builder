@@ -25,7 +25,7 @@ A clean, modern, and developer-friendly resume template engineered to render a p
 
 
 
----
+
 
 ## Prerequisites & Installation
 
