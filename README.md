@@ -16,14 +16,6 @@ A clean, modern, and developer-friendly resume template engineered to render a p
 
 ---
 
-## Project Structure
-
-```text
-├── resume.html          # Clean HTML/CSS resume template
-└── README.md            # Documentation & setup instructions
-
-```
-
 
 ## Quick Start (No Installation Needed)
 
