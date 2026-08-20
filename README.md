@@ -47,6 +47,3 @@ If your content runs onto a second page or you want to expand sections, adjust t
 
 This project is licensed under the [MIT License](https://github.com/Trazer09/Resume-Builder/blob/main/LICENSE) — feel free to fork, customize, and use it for your personal career applications.
 
-```
-
-```
