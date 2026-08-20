@@ -20,84 +20,37 @@ A clean, modern, and developer-friendly resume template engineered to render a p
 
 ```text
 ├── resume.html          # Clean HTML/CSS resume template
-├── generate_resume.py   # Python script to compile HTML to PDF
 └── README.md            # Documentation & setup instructions
 
 ```
 
 
+## Quick Start (No Installation Needed)
 
-## Prerequisites & Installation
+You do **not** need to install Python or any dependencies to use this template.
 
-### 1. System Dependencies (Linux / Ubuntu / Debian)
-
-WeasyPrint requires underlying rendering and font libraries (`pango`, `cairo`, `harfbuzz`):
-
-```bash
-sudo apt update
-sudo apt install -y python3-venv python3-pip libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz-subset0 libffi-dev
-
-```
-
-*(For macOS: `brew install pango` | For Windows: Install GTK3 runtime as per WeasyPrint docs).*
-
-### 2. Python Environment Setup
-
-To avoid `PEP 668` conflicts with system packages, use a virtual environment:
-
-```bash
-# Create virtual environment
-python3 -m venv venv
-
-# Activate virtual environment
-# On Linux/macOS:
-source venv/bin/activate
-# On Windows:
-# .\venv\Scripts\activate
-
-# Install WeasyPrint
-pip install weasyprint
-
-```
+1. Download or copy `resume.html`.
+2. Open it in your favorite text editor (VS Code, Notepad, etc.) and update your information.
+3. Double-click `resume.html` to open it in your browser (Chrome, Edge, Brave, Firefox).
+4. Press `Ctrl + P` (or `Cmd + P` on Mac) and choose **Save as PDF**.
+   - **Margins:** Set to *None* (margins are handled in CSS)
+   - **Options:** Enable *Background graphics*
 
 ---
 
-## Usage
+## Automated CLI Build (Optional for Developers)
 
-### Method A: Automated Python Compilation (Recommended)
+If you prefer compiling your resume via terminal/scripts or CI/CD pipelines:
 
-1. Clone this repository:
 ```bash
-git clone [https://github.com/Trazer09/html-resume-generator.git](https://github.com/Trazer09/html-resume-generator.git)
-cd html-resume-generator
+# 1. Install dependencies
+pip install weasyprint
 
-```
-
-
-2. Open `generate_resume.py` (or `resume.html`) and replace the template text with your own experience, education, and links.
-3. Run the compiler:
-```bash
+# 2. Run the generator
 python generate_resume.py
 
 ```
 
-
-4. Find your generated PDF (`Sidhant_Kumar_Resume.pdf`) in the project directory.
-
----
-
-### Method B: Browser Print-to-PDF (No Python Needed)
-
-1. Double-click and open `resume.html` in any modern web browser (Chrome, Brave, Firefox, Edge).
-2. Press `Ctrl + P` (or `Cmd + P` on macOS).
-3. Set **Destination** to `Save as PDF`.
-4. In **More Settings**:
-* **Paper Size:** `A4`
-* **Margins:** `None` (Margins are handled via CSS `@page`)
-* **Options:** Check **Background graphics**
-
-
-5. Click **Save**.
 
 ---
 
