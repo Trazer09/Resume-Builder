@@ -38,18 +38,6 @@ You do **not** need to install Python or any dependencies to use this template.
 
 ---
 
-## Automated CLI Build (Optional for Developers)
-
-If you prefer compiling your resume via terminal/scripts or CI/CD pipelines:
-
-```bash
-# 1. Install dependencies
-pip install weasyprint
-
-# 2. Run the generator
-python generate_resume.py
-
-```
 
 
 ---
