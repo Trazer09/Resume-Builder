@@ -19,14 +19,20 @@ A clean, modern, and developer-friendly resume template engineered to render a p
 
 ## Quick Start (No Installation Needed)
 
-1. Download or copy `resume.html`.
-2. Open it in your favorite text editor (VS Code, Notepad, etc.) and update your information.
-3. Double-click `resume.html` to open it in your browser (Chrome, Edge, Brave, Firefox).
-4. Press `Ctrl + P` (or `Cmd + P` on Mac) and choose **Save as PDF**.
-   - **Margins:** Set to *None* (margins are handled in CSS)
-   - **Options:** Enable *Background graphics*
+1. Download or clone `resume.html`.
+2. Open it in any text editor (VS Code, Notepad, etc.) and replace the placeholder text with your details.
+3. Open `resume.html` in your web browser (Chrome, Edge, Brave, or Firefox).
+4. Press `Ctrl + P` (or `Cmd + P` on macOS) and select **Save as PDF**.
 
+---
 
+## Troubleshooting & Print Settings
+
+If the formatting looks slightly off or text spills onto a second page:
+
+* **Margins:** In print settings, set **Margins** to `None` or `Custom` (margins are already configured in CSS).
+* **Remove Page URLs / Dates (Firefox/Chrome):** Go to **More settings** and uncheck **Print headers and footers**.
+* **Ensure Styling Loads:** Under **More settings**, check the box for **Background graphics**.
 
 
 ---
