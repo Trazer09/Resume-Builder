@@ -36,7 +36,6 @@ You do **not** need to install Python or any dependencies to use this template.
    - **Margins:** Set to *None* (margins are handled in CSS)
    - **Options:** Enable *Background graphics*
 
----
 
 
 
