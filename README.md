@@ -19,8 +19,6 @@ A clean, modern, and developer-friendly resume template engineered to render a p
 
 ## Quick Start (No Installation Needed)
 
-You do **not** need to install Python or any dependencies to use this template.
-
 1. Download or copy `resume.html`.
 2. Open it in your favorite text editor (VS Code, Notepad, etc.) and update your information.
 3. Double-click `resume.html` to open it in your browser (Chrome, Edge, Brave, Firefox).
