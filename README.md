@@ -23,7 +23,7 @@ A clean, modern, and developer-friendly resume template engineered to render a p
 ├── generate_resume.py   # Python script to compile HTML to PDF
 └── README.md            # Documentation & setup instructions
 
-
+```
 
 
 
