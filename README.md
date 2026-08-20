@@ -2,7 +2,7 @@
 
 # HTML to Single-Page PDF Resume Generator
 
-A clean, modern, and developer-friendly resume template engineered to render a pixel-perfect, ATS-compliant, single-page PDF using semantic HTML/CSS and [WeasyPrint](https://weasyprint.org/).
+A clean, modern, and developer-friendly resume template engineered to render a pixel-perfect, ATS-compliant, single-page PDF using semantic HTML/CSS.
 
 ---
 
